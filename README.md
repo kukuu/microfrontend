@@ -2,7 +2,7 @@
 The main difference between module federation and single-spa is the way they handle the sharing and reuse of modules. 
 Module federation uses a central “entry” point for each module, while single-spa uses a “shell” application to load and manage different micro frontends.
 
-Single SPA helps to bring code from other platforms, perhaps from S3 in the form of individual Parcels.
+Single SPA helps to bring code from other platforms, perhaps from S3 Bucket in the form of individual Parcels.
 
 With Single SPA, JavaScript has to be first loaded onto the page. Conventioanally done using System JS.Single SPA then takes over the orchestration - allowing the different libraries (REACT, VUE, Svelte, Angular  - etc) used to build the parcels handshaking with the same life cycle methods, and further displaying the Web application.
 
