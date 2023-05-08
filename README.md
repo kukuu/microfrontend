@@ -8,7 +8,7 @@ With Single SPA, JavaScript has to be first loaded onto the page. Conventioanall
 
 Replacing System JS with Federated Modules allows moving the code for the Parcels back into the application allowing for easier maintenance and also continue the sharing of the Parcels between the applications.
 
-Webpack plays a key role in the handshaking and configuration to aggregate the different Parcels onto the page.
+Webpack plays a key role in the handshaking and configuration to aggregate the different Parcels onto the page dynamically.
 
 # Getting Started
 
